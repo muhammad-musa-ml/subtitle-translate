@@ -206,5 +206,23 @@ class CheckCommandTests(unittest.TestCase):
         self.assertEqual(self.check(), 1)
 
 
+class StoredResultsTests(unittest.TestCase):
+    def test_results_and_readme_agree_with_a_fresh_run(self):
+        out = io.StringIO()
+        with contextlib.redirect_stdout(out):
+            code = bench.check()
+        self.assertEqual(code, 0, out.getvalue())
+
+    def test_the_standin_numbers_quoted_in_the_readme_prose_match_the_stored_results(self):
+        with open(os.path.join(bench.RESULTS, "standin.json"), encoding="utf-8") as fh:
+            pooled = json.load(fh)["pooled"]
+        with open(bench.README, encoding="utf-8") as fh:
+            text = fh.read()
+        noun = "%d of the %d wrong-noun cues" % (pooled["shipped_wrong_by"]["wrong_noun"], pooled["trials"]["wrong_noun"])
+        english = "%d of the %d English replies" % (pooled["shipped_wrong_by"]["english"], pooled["trials"]["english"])
+        self.assertIn(noun, text)
+        self.assertIn(english, text)
+
+
 if __name__ == "__main__":
     unittest.main()
