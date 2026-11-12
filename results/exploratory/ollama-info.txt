@@ -1,0 +1,8 @@
+Taken from the machine that produced results/live-*.json.
+ollama server version: 0.40.16
+gemma3:latest | digest a2af6cc3eb7f | gemma3 | 4.3B | Q4_K_M | 3.34 GB on disk
+llama3.2:3b | digest a80c4f17acd5 | llama | 3.2B | Q4_K_M | 2.02 GB on disk
+qwen3:4b-instruct-2507-q4_K_M | digest 0edcdef34593 | qwen3 | 4.0B | Q4_K_M | 2.50 GB on disk
+gpu: NVIDIA GeForce RTX 4050 Laptop GPU, 6141 MiB
+os: Windows 11
+python: 3.13.5

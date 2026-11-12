@@ -1,0 +1,263 @@
+{
+ "runs": [
+  {
+   "rejected": [
+    {
+     "attempt": 1,
+     "codes": [
+      "reading_speed"
+     ],
+     "index": 25,
+     "output": "Ti verranno mostrati i contenuti entro 5 minuti.",
+     "source": "You'll see views within 5 minutes."
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "duplicate"
+     ],
+     "index": 30,
+     "output": null,
+     "source": "<i>We keep a copy for 30 days.</i>"
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "missing"
+     ],
+     "index": 31,
+     "output": null,
+     "source": "After that, we ask before deleting it."
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "length_ratio"
+     ],
+     "index": 38,
+     "output": "[MUSIC]",
+     "source": "Thanks for watching, and see you\nin the next one."
+    }
+   ],
+   "run": 1,
+   "summary": {
+    "calls": 6,
+    "cues": 39,
+    "first_attempt_codes": {
+     "duplicate": 1,
+     "length_ratio": 1,
+     "missing": 1,
+     "reading_speed": 1
+    },
+    "latency_s": 28.092,
+    "reflowed": 6,
+    "repaired_replies": 0,
+    "status": {
+     "ok": 35,
+     "retried": 4
+    }
+   },
+   "wall_s": 28.1
+  },
+  {
+   "rejected": [
+    {
+     "attempt": 1,
+     "codes": [
+      "unchanged"
+     ],
+     "index": 4,
+     "output": "<i>While that runs, set the title.</i>",
+     "source": "<i>While that runs, set the title.</i>"
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "reading_speed"
+     ],
+     "index": 25,
+     "output": "Ti verranno mostrati i contenuti entro 5 minuti.",
+     "source": "You'll see views within 5 minutes."
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "reading_speed"
+     ],
+     "index": 30,
+     "output": "<i>Viene conservata una copia per 30 giorni.</i>",
+     "source": "<i>We keep a copy for 30 days.</i>"
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "reading_speed"
+     ],
+     "index": 31,
+     "output": "Dopo quel periodo, chiediamo prima di eliminarla.",
+     "source": "After that, we ask before deleting it."
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "length_ratio"
+     ],
+     "index": 38,
+     "output": "[MUSIC]",
+     "source": "Thanks for watching, and see you\nin the next one."
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "reading_speed",
+      "length_ratio"
+     ],
+     "index": 39,
+     "output": "Grazie per averlo visto, ci vediamo\nnell'altro.",
+     "source": "[MUSIC]"
+    },
+    {
+     "attempt": 2,
+     "codes": [
+      "missing"
+     ],
+     "index": 31,
+     "output": null,
+     "source": "After that, we ask before deleting it."
+    }
+   ],
+   "run": 2,
+   "summary": {
+    "calls": 7,
+    "cues": 39,
+    "first_attempt_codes": {
+     "length_ratio": 2,
+     "reading_speed": 4,
+     "unchanged": 1
+    },
+    "latency_s": 23.545,
+    "reflowed": 9,
+    "repaired_replies": 0,
+    "status": {
+     "ok": 33,
+     "retried": 6
+    }
+   },
+   "wall_s": 23.5
+  },
+  {
+   "rejected": [
+    {
+     "attempt": 1,
+     "codes": [
+      "unchanged"
+     ],
+     "index": 4,
+     "output": "<i>While that runs, set the title.</i>",
+     "source": "<i>While that runs, set the title.</i>"
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "duplicate"
+     ],
+     "index": 19,
+     "output": null,
+     "source": "People read about 17 characters\nper second."
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "missing"
+     ],
+     "index": 23,
+     "output": null,
+     "source": "The link works right away."
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "reading_speed"
+     ],
+     "index": 25,
+     "output": "Ti verranno mostrati gli schermi in 5 minuti.",
+     "source": "You'll see views within 5 minutes."
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "missing"
+     ],
+     "index": 30,
+     "output": null,
+     "source": "<i>We keep a copy for 30 days.</i>"
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "reading_speed"
+     ],
+     "index": 31,
+     "output": "Dopo quel periodo, chiediamo prima di eliminarla.",
+     "source": "After that, we ask before deleting it."
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "length_ratio"
+     ],
+     "index": 38,
+     "output": "[MUSIC]",
+     "source": "Thanks for watching, and see you\nin the next one."
+    },
+    {
+     "attempt": 2,
+     "codes": [
+      "unchanged"
+     ],
+     "index": 4,
+     "output": "<i>While that runs, set the title.</i>",
+     "source": "<i>While that runs, set the title.</i>"
+    },
+    {
+     "attempt": 2,
+     "codes": [
+      "reading_speed"
+     ],
+     "index": 31,
+     "output": "Dopo quel periodo, chiediamo prima di eliminarla.",
+     "source": "After that, we ask before deleting it."
+    }
+   ],
+   "run": 3,
+   "summary": {
+    "calls": 7,
+    "cues": 39,
+    "first_attempt_codes": {
+     "duplicate": 1,
+     "length_ratio": 1,
+     "missing": 2,
+     "reading_speed": 2,
+     "unchanged": 1
+    },
+    "latency_s": 24.179,
+    "reflowed": 5,
+    "repaired_replies": 0,
+    "status": {
+     "ok": 32,
+     "retried": 7
+    }
+   },
+   "wall_s": 24.2
+  }
+ ],
+ "setup": {
+  "batch_size": 8,
+  "max_retries": 2,
+  "model": "qwen3:4b-instruct-2507-q4_K_M",
+  "runs": 3,
+  "source": "demo.srt",
+  "target": "Italian",
+  "temperature": 0.3
+ }
+}

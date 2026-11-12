@@ -1,0 +1,359 @@
+{
+ "per_seed": [
+  {
+   "calls_first_reply": 24,
+   "calls_with_retries": 33,
+   "cues": 180,
+   "first_reply_clean": 139,
+   "first_reply_wrong": 41,
+   "first_reply_wrong_by": {
+    "commentary": 4,
+    "drop": 7,
+    "duplicate": 2,
+    "english": 3,
+    "long": 3,
+    "merge": 2,
+    "merged_away": 2,
+    "number": 6,
+    "tag": 1,
+    "truncated": 8,
+    "wrong_noun": 3
+   },
+   "latency_first_reply_s": 18.78828969183761,
+   "latency_with_retries_s": 24.900117351358787,
+   "left_in_source": 2,
+   "reflowed": 1,
+   "rejected": {
+    "commentary": 5,
+    "drop": 8,
+    "duplicate": 3,
+    "english": 4,
+    "long": 5,
+    "merge": 3,
+    "merged_away": 3,
+    "number": 8,
+    "tag": 1,
+    "truncated": 8
+   },
+   "seed": 1,
+   "shipped_right": 173,
+   "shipped_wrong": 5,
+   "shipped_wrong_by": {
+    "wrong_noun": 5
+   },
+   "trials": {
+    "clean": 173,
+    "commentary": 5,
+    "drop": 8,
+    "duplicate": 3,
+    "english": 4,
+    "long": 5,
+    "merge": 3,
+    "merged_away": 3,
+    "number": 8,
+    "tag": 1,
+    "truncated": 8,
+    "wrong_noun": 5
+   }
+  },
+  {
+   "calls_first_reply": 24,
+   "calls_with_retries": 34,
+   "cues": 180,
+   "first_reply_clean": 137,
+   "first_reply_wrong": 43,
+   "first_reply_wrong_by": {
+    "commentary": 4,
+    "drop": 5,
+    "duplicate": 1,
+    "english": 6,
+    "long": 5,
+    "merge": 3,
+    "merged_away": 3,
+    "number": 11,
+    "tag": 1,
+    "wrong_noun": 4
+   },
+   "latency_first_reply_s": 18.97286877124614,
+   "latency_with_retries_s": 25.917313897690885,
+   "left_in_source": 6,
+   "reflowed": 0,
+   "rejected": {
+    "commentary": 8,
+    "drop": 7,
+    "duplicate": 3,
+    "english": 5,
+    "long": 12,
+    "merge": 3,
+    "merged_away": 3,
+    "number": 16,
+    "tag": 1
+   },
+   "seed": 2,
+   "shipped_right": 167,
+   "shipped_wrong": 7,
+   "shipped_wrong_by": {
+    "english": 2,
+    "wrong_noun": 5
+   },
+   "trials": {
+    "clean": 167,
+    "commentary": 8,
+    "drop": 7,
+    "duplicate": 3,
+    "english": 7,
+    "long": 12,
+    "merge": 3,
+    "merged_away": 3,
+    "number": 16,
+    "tag": 1,
+    "wrong_noun": 5
+   }
+  },
+  {
+   "calls_first_reply": 24,
+   "calls_with_retries": 34,
+   "cues": 180,
+   "first_reply_clean": 133,
+   "first_reply_wrong": 47,
+   "first_reply_wrong_by": {
+    "commentary": 6,
+    "drop": 6,
+    "duplicate": 5,
+    "english": 7,
+    "long": 7,
+    "merge": 4,
+    "merged_away": 4,
+    "number": 6,
+    "wrong_noun": 2
+   },
+   "latency_first_reply_s": 19.026416195335052,
+   "latency_with_retries_s": 26.009249258972297,
+   "left_in_source": 8,
+   "reflowed": 0,
+   "rejected": {
+    "commentary": 8,
+    "drop": 10,
+    "duplicate": 8,
+    "english": 5,
+    "long": 11,
+    "merge": 6,
+    "merged_away": 6,
+    "number": 11,
+    "wrong_noun": 1
+   },
+   "seed": 3,
+   "shipped_right": 168,
+   "shipped_wrong": 4,
+   "shipped_wrong_by": {
+    "english": 2,
+    "wrong_noun": 2
+   },
+   "trials": {
+    "clean": 168,
+    "commentary": 8,
+    "drop": 10,
+    "duplicate": 8,
+    "english": 7,
+    "long": 11,
+    "merge": 6,
+    "merged_away": 6,
+    "number": 11,
+    "wrong_noun": 3
+   }
+  },
+  {
+   "calls_first_reply": 24,
+   "calls_with_retries": 33,
+   "cues": 180,
+   "first_reply_clean": 135,
+   "first_reply_wrong": 45,
+   "first_reply_wrong_by": {
+    "commentary": 7,
+    "drop": 6,
+    "duplicate": 3,
+    "english": 7,
+    "long": 12,
+    "merge": 1,
+    "merged_away": 1,
+    "number": 4,
+    "wrong_noun": 4
+   },
+   "latency_first_reply_s": 18.918695903628056,
+   "latency_with_retries_s": 25.656930521277573,
+   "left_in_source": 5,
+   "reflowed": 0,
+   "rejected": {
+    "commentary": 13,
+    "drop": 9,
+    "duplicate": 4,
+    "english": 7,
+    "long": 18,
+    "merge": 1,
+    "merged_away": 1,
+    "number": 4,
+    "tag": 1
+   },
+   "seed": 4,
+   "shipped_right": 168,
+   "shipped_wrong": 7,
+   "shipped_wrong_by": {
+    "english": 3,
+    "wrong_noun": 4
+   },
+   "trials": {
+    "clean": 168,
+    "commentary": 13,
+    "drop": 9,
+    "duplicate": 4,
+    "english": 10,
+    "long": 18,
+    "merge": 1,
+    "merged_away": 1,
+    "number": 4,
+    "tag": 1,
+    "wrong_noun": 4
+   }
+  },
+  {
+   "calls_first_reply": 24,
+   "calls_with_retries": 34,
+   "cues": 180,
+   "first_reply_clean": 134,
+   "first_reply_wrong": 46,
+   "first_reply_wrong_by": {
+    "commentary": 5,
+    "drop": 6,
+    "duplicate": 4,
+    "english": 6,
+    "long": 10,
+    "merge": 1,
+    "merged_away": 1,
+    "number": 1,
+    "tag": 2,
+    "truncated": 8,
+    "wrong_noun": 2
+   },
+   "latency_first_reply_s": 19.334848307048667,
+   "latency_with_retries_s": 26.237760159333895,
+   "left_in_source": 8,
+   "reflowed": 0,
+   "rejected": {
+    "commentary": 13,
+    "drop": 7,
+    "duplicate": 4,
+    "english": 13,
+    "long": 11,
+    "merge": 2,
+    "merged_away": 2,
+    "number": 2,
+    "tag": 2,
+    "truncated": 8
+   },
+   "seed": 5,
+   "shipped_right": 169,
+   "shipped_wrong": 3,
+   "shipped_wrong_by": {
+    "wrong_noun": 3
+   },
+   "trials": {
+    "clean": 169,
+    "commentary": 13,
+    "drop": 7,
+    "duplicate": 4,
+    "english": 13,
+    "long": 11,
+    "merge": 2,
+    "merged_away": 2,
+    "number": 2,
+    "tag": 2,
+    "truncated": 8,
+    "wrong_noun": 3
+   }
+  }
+ ],
+ "pooled": {
+  "calls_first_reply": 120,
+  "calls_with_retries": 168,
+  "cues": 900,
+  "first_reply_clean": 678,
+  "first_reply_wrong": 222,
+  "first_reply_wrong_by": {
+   "commentary": 26,
+   "drop": 30,
+   "duplicate": 15,
+   "english": 29,
+   "long": 37,
+   "merge": 11,
+   "merged_away": 11,
+   "number": 28,
+   "tag": 4,
+   "truncated": 16,
+   "wrong_noun": 15
+  },
+  "latency_first_reply_s": 95.04111886909553,
+  "latency_with_retries_s": 128.72137118863344,
+  "left_in_source": 29,
+  "reflowed": 1,
+  "rejected": {
+   "commentary": 47,
+   "drop": 41,
+   "duplicate": 22,
+   "english": 34,
+   "long": 57,
+   "merge": 15,
+   "merged_away": 15,
+   "number": 41,
+   "tag": 5,
+   "truncated": 16,
+   "wrong_noun": 1
+  },
+  "shipped_right": 845,
+  "shipped_wrong": 26,
+  "shipped_wrong_by": {
+   "english": 7,
+   "wrong_noun": 19
+  },
+  "trials": {
+   "clean": 845,
+   "commentary": 47,
+   "drop": 41,
+   "duplicate": 22,
+   "english": 41,
+   "long": 57,
+   "merge": 15,
+   "merged_away": 15,
+   "number": 41,
+   "tag": 5,
+   "truncated": 16,
+   "wrong_noun": 20
+  }
+ },
+ "setup": {
+  "batch_size": 8,
+  "cues_per_file": 60,
+  "files_per_seed": 3,
+  "max_retries": 2,
+  "rates": {
+   "commentary": 0.03,
+   "drop": 0.03,
+   "duplicate": 0.02,
+   "english": 0.03,
+   "fenced": 0.05,
+   "long": 0.04,
+   "merge": 0.02,
+   "number": 0.04,
+   "stubborn": 0.03,
+   "tag": 0.04,
+   "truncated": 0.03,
+   "wrong_noun": 0.03
+  },
+  "seeds": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ]
+ }
+}

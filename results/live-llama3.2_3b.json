@@ -1,0 +1,433 @@
+{
+ "runs": [
+  {
+   "rejected": [
+    {
+     "attempt": 1,
+     "codes": [
+      "line_length"
+     ],
+     "index": 28,
+     "output": "- Posso condividere questo esterno al team?\n- Si, ma solo per 7 giorni.",
+     "source": "- Can I share it outside the team?\n- Yes, but only for 7 days."
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "reading_speed"
+     ],
+     "index": 31,
+     "output": "Dopo quel periodo, chiediamo il permesso di cancellare.",
+     "source": "After that, we ask before deleting it."
+    },
+    {
+     "attempt": 2,
+     "codes": [
+      "tags",
+      "dialogue"
+     ],
+     "index": 28,
+     "output": "<i>Posso condividere</i> <i>la cosa</i> <i>fuori dal team?</i>\n<i>Sì, ma solo per 7 giorni.</i>",
+     "source": "- Can I share it outside the team?\n- Yes, but only for 7 days."
+    },
+    {
+     "attempt": 2,
+     "codes": [
+      "reading_speed",
+      "numbers"
+     ],
+     "index": 31,
+     "output": "Dopo 7 giorni, chiediamo prima di eliminarlo.",
+     "source": "After that, we ask before deleting it."
+    },
+    {
+     "attempt": 3,
+     "codes": [
+      "tags",
+      "dialogue"
+     ],
+     "index": 28,
+     "output": "<i>Posso condividere</i> <i>lo</i> <i>fuori</i> <i>dal team?</i>\n<i>Si</i>, <i>ma</i> <i>solamente</i> <i>per</i> <i>7</i> <i>giorni</i>.",
+     "source": "- Can I share it outside the team?\n- Yes, but only for 7 days."
+    },
+    {
+     "attempt": 3,
+     "codes": [
+      "reading_speed",
+      "numbers",
+      "tags"
+     ],
+     "index": 31,
+     "output": "Dopo <i>7</i> <i>giorni</i>, chiediamo prima di <i>eliminare</i> <i>lo</i>.",
+     "source": "After that, we ask before deleting it."
+    }
+   ],
+   "run": 1,
+   "seed": 1,
+   "summary": {
+    "calls": 7,
+    "cues": 39,
+    "first_attempt_codes": {
+     "line_length": 1,
+     "reading_speed": 1
+    },
+    "latency_s": 24.803,
+    "reflowed": 6,
+    "repaired_replies": 0,
+    "status": {
+     "fallback": 2,
+     "ok": 37
+    }
+   },
+   "wall_s": 24.8
+  },
+  {
+   "rejected": [
+    {
+     "attempt": 1,
+     "codes": [
+      "numbers"
+     ],
+     "index": 6,
+     "output": "Proseguo con l'elenco dei 12 persone.",
+     "source": "Next, pick who can watch it."
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "tags",
+      "length_ratio"
+     ],
+     "index": 21,
+     "output": "<applause>",
+     "source": "[applause]"
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "line_length"
+     ],
+     "index": 28,
+     "output": "- Posso condividere questo esternamente alla squadra?\n- Sì, ma solo per 7 giorni.",
+     "source": "- Can I share it outside the team?\n- Yes, but only for 7 days."
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "reading_speed"
+     ],
+     "index": 31,
+     "output": "Dopo quel periodo, chiediamo il permesso di cancellare.",
+     "source": "After that, we ask before deleting it."
+    }
+   ],
+   "run": 2,
+   "seed": 2,
+   "summary": {
+    "calls": 6,
+    "cues": 39,
+    "first_attempt_codes": {
+     "length_ratio": 1,
+     "line_length": 1,
+     "numbers": 1,
+     "reading_speed": 1,
+     "tags": 1
+    },
+    "latency_s": 17.668,
+    "reflowed": 10,
+    "repaired_replies": 0,
+    "status": {
+     "ok": 35,
+     "retried": 4
+    }
+   },
+   "wall_s": 17.7
+  },
+  {
+   "rejected": [
+    {
+     "attempt": 1,
+     "codes": [
+      "line_length"
+     ],
+     "index": 28,
+     "output": "- Posso condividere questo esternamente al team?\n- Si, ma solo per 7 giorni.",
+     "source": "- Can I share it outside the team?\n- Yes, but only for 7 days."
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "reading_speed"
+     ],
+     "index": 31,
+     "output": "Dopo questo, chiediamo il permesso di cancellare.",
+     "source": "After that, we ask before deleting it."
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "model_error"
+     ],
+     "error": "HTTP 500: {\"error\":{\"message\":\"prediction aborted, token repeat limit reached\",\"type\":\"api_error\",\"param\":null,\"code\":null}}",
+     "index": 33,
+     "output": null,
+     "source": "Download them as a file if you like."
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "model_error"
+     ],
+     "error": "HTTP 500: {\"error\":{\"message\":\"prediction aborted, token repeat limit reached\",\"type\":\"api_error\",\"param\":null,\"code\":null}}",
+     "index": 34,
+     "output": null,
+     "source": "The file is plain text with numbers\nand times."
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "model_error"
+     ],
+     "error": "HTTP 500: {\"error\":{\"message\":\"prediction aborted, token repeat limit reached\",\"type\":\"api_error\",\"param\":null,\"code\":null}}",
+     "index": 35,
+     "output": null,
+     "source": "Edit it in any text editor."
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "model_error"
+     ],
+     "error": "HTTP 500: {\"error\":{\"message\":\"prediction aborted, token repeat limit reached\",\"type\":\"api_error\",\"param\":null,\"code\":null}}",
+     "index": 36,
+     "output": null,
+     "source": "Just don't change the times by accident."
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "model_error"
+     ],
+     "error": "HTTP 500: {\"error\":{\"message\":\"prediction aborted, token repeat limit reached\",\"type\":\"api_error\",\"param\":null,\"code\":null}}",
+     "index": 37,
+     "output": null,
+     "source": "That's all for today."
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "model_error"
+     ],
+     "error": "HTTP 500: {\"error\":{\"message\":\"prediction aborted, token repeat limit reached\",\"type\":\"api_error\",\"param\":null,\"code\":null}}",
+     "index": 38,
+     "output": null,
+     "source": "Thanks for watching, and see you\nin the next one."
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "model_error"
+     ],
+     "error": "HTTP 500: {\"error\":{\"message\":\"prediction aborted, token repeat limit reached\",\"type\":\"api_error\",\"param\":null,\"code\":null}}",
+     "index": 39,
+     "output": null,
+     "source": "[MUSIC]"
+    },
+    {
+     "attempt": 2,
+     "codes": [
+      "bad_reply"
+     ],
+     "index": 28,
+     "output": null,
+     "source": "- Can I share it outside the team?\n- Yes, but only for 7 days."
+    },
+    {
+     "attempt": 2,
+     "codes": [
+      "bad_reply"
+     ],
+     "index": 31,
+     "output": null,
+     "source": "After that, we ask before deleting it."
+    },
+    {
+     "attempt": 2,
+     "codes": [
+      "bad_reply"
+     ],
+     "index": 33,
+     "output": null,
+     "source": "Download them as a file if you like."
+    },
+    {
+     "attempt": 2,
+     "codes": [
+      "bad_reply"
+     ],
+     "index": 34,
+     "output": null,
+     "source": "The file is plain text with numbers\nand times."
+    },
+    {
+     "attempt": 2,
+     "codes": [
+      "bad_reply"
+     ],
+     "index": 35,
+     "output": null,
+     "source": "Edit it in any text editor."
+    },
+    {
+     "attempt": 2,
+     "codes": [
+      "bad_reply"
+     ],
+     "index": 36,
+     "output": null,
+     "source": "Just don't change the times by accident."
+    },
+    {
+     "attempt": 2,
+     "codes": [
+      "bad_reply"
+     ],
+     "index": 37,
+     "output": null,
+     "source": "That's all for today."
+    },
+    {
+     "attempt": 2,
+     "codes": [
+      "bad_reply"
+     ],
+     "index": 38,
+     "output": null,
+     "source": "Thanks for watching, and see you\nin the next one."
+    },
+    {
+     "attempt": 2,
+     "codes": [
+      "tags"
+     ],
+     "index": 39,
+     "output": "<i>La musica</i>",
+     "source": "[MUSIC]"
+    },
+    {
+     "attempt": 3,
+     "codes": [
+      "tags",
+      "dialogue"
+     ],
+     "index": 28,
+     "output": "<i>Can</i> <i> I </i> <i> share </i> <i> it </i> <i> outside </i> <i> the </i> <i> team?</i>\n<i> Yes </i>, <i> but </i> <i> only </i> <i> for </i> <i> 7 </i> <i> days</i>.",
+     "source": "- Can I share it outside the team?\n- Yes, but only for 7 days."
+    },
+    {
+     "attempt": 3,
+     "codes": [
+      "reading_speed",
+      "tags",
+      "english_left"
+     ],
+     "index": 31,
+     "output": "After <i> that </i>, <i> we </i> <i> ask </i> <i> before </i> <i> deleting </i> <i> it</i>.",
+     "source": "After that, we ask before deleting it."
+    },
+    {
+     "attempt": 3,
+     "codes": [
+      "tags"
+     ],
+     "index": 33,
+     "output": "Download <i> them </i> <i> as </i> <i> a </i> <i> file </i> <i> if </i> <i> you </i> <i> like</i>.",
+     "source": "Download them as a file if you like."
+    },
+    {
+     "attempt": 3,
+     "codes": [
+      "tags",
+      "english_left"
+     ],
+     "index": 34,
+     "output": "The <i> file </i> <i> is </i> <i> plain </i> <i> text </i> <i> with </i> <i> numbers</i> <i> and </i> <i> times</i>.",
+     "source": "The file is plain text with numbers\nand times."
+    },
+    {
+     "attempt": 3,
+     "codes": [
+      "tags"
+     ],
+     "index": 35,
+     "output": "Edit <i> it </i> <i> in </i> <i> any </i> <i> text </i> <i> editor</i>.",
+     "source": "Edit it in any text editor."
+    },
+    {
+     "attempt": 3,
+     "codes": [
+      "tags"
+     ],
+     "index": 36,
+     "output": "Just <i> don't </i> <i> change </i> <i> the </i> <i> times </i> <i> by </i> <i> accident</i>.",
+     "source": "Just don't change the times by accident."
+    },
+    {
+     "attempt": 3,
+     "codes": [
+      "tags"
+     ],
+     "index": 37,
+     "output": "<i> That's </i> <i> all </i> <i> for </i> <i> today</i>.",
+     "source": "That's all for today."
+    },
+    {
+     "attempt": 3,
+     "codes": [
+      "tags"
+     ],
+     "index": 38,
+     "output": "Thanks <i> for </i> <i> watching </i>, <i> and </i> <i> see </i> <i> you</i> <i> in </i> <i> the </i> <i> next </i> <i> one</i>.",
+     "source": "Thanks for watching, and see you\nin the next one."
+    },
+    {
+     "attempt": 3,
+     "codes": [
+      "missing"
+     ],
+     "index": 39,
+     "output": null,
+     "source": "[MUSIC]"
+    }
+   ],
+   "run": 3,
+   "seed": 3,
+   "summary": {
+    "calls": 9,
+    "cues": 39,
+    "first_attempt_codes": {
+     "line_length": 1,
+     "model_error": 7,
+     "reading_speed": 1
+    },
+    "latency_s": 25.66,
+    "reflowed": 8,
+    "repaired_replies": 0,
+    "status": {
+     "fallback": 9,
+     "ok": 30
+    }
+   },
+   "wall_s": 27.4
+  }
+ ],
+ "setup": {
+  "batch_size": 8,
+  "max_retries": 2,
+  "model": "llama3.2:3b",
+  "runs": 3,
+  "source": "demo.srt",
+  "target": "Italian",
+  "temperature": 0.3
+ }
+}

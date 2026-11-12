@@ -1,0 +1,5 @@
+One call to gemma3:latest, cues 1 to 8 of samples/demo.srt, temperature 0.3, seed 1.
+reply length: 538 characters
+first 60 characters: '```json\n[\n  {"id": 1, "text": "[MUSIC]"},\n  {"id": 2, "text"'
+last 20 characters: 'vate link\\"."}\n]\n```'
+parse_reply: items=8, repaired=True

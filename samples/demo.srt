@@ -1,0 +1,169 @@
+1
+00:00:01,000 --> 00:00:02,600
+[MUSIC]
+
+2
+00:00:02,800 --> 00:00:07,910
+Welcome back. Today we're sharing one video
+with a team of 12 people.
+
+3
+00:00:08,110 --> 00:00:12,330
+First, upload the file. It's 2.4 GB,
+so give it a minute.
+
+4
+00:00:12,530 --> 00:00:14,830
+<i>While that runs, set the title.</i>
+
+5
+00:00:15,030 --> 00:00:17,100
+Keep it under 60 characters.
+
+6
+00:00:17,300 --> 00:00:19,370
+Next, pick who can watch it.
+
+7
+00:00:19,570 --> 00:00:23,790
+- Everyone on the team?
+- Only the 12 people on the list.
+
+8
+00:00:23,990 --> 00:00:26,580
+Right, so we choose "Private link".
+
+9
+00:00:26,780 --> 00:00:29,220
+Now add subtitles in 3 languages.
+
+10
+00:00:29,420 --> 00:00:33,860
+Italian, Spanish and German are ready
+from the last project.
+
+11
+00:00:34,060 --> 00:00:38,500
+The translation takes about 2 minutes
+for a 10-minute video.
+
+12
+00:00:38,700 --> 00:00:41,290
+Check every cue before you publish.
+
+13
+00:00:41,490 --> 00:00:45,710
+A wrong number in a subtitle is worse
+than a missing one.
+
+14
+00:00:45,910 --> 00:00:49,380
+For example, "1,200 downloads" must
+stay "1,200 downloads".
+
+15
+00:00:49,580 --> 00:00:51,950
+<i>Dates matter too: March 3, 2027.</i>
+
+16
+00:00:52,150 --> 00:00:56,150
+If a line is too long, it won't fit
+on a phone screen.
+
+17
+00:00:56,350 --> 00:00:59,110
+Two lines, 42 characters each,
+is a good limit.
+
+18
+00:00:59,310 --> 00:01:01,530
+Reading speed matters as well.
+
+19
+00:01:01,730 --> 00:01:04,260
+People read about 17 characters
+per second.
+
+20
+00:01:04,460 --> 00:01:06,980
+Anything faster feels like a blur.
+
+21
+00:01:07,180 --> 00:01:08,780
+[applause]
+
+22
+00:01:08,980 --> 00:01:10,580
+Now press Publish.
+
+23
+00:01:10,780 --> 00:01:12,710
+The link works right away.
+
+24
+00:01:12,910 --> 00:01:15,720
+Send it to the team on Monday at 9:30.
+
+25
+00:01:15,920 --> 00:01:17,920
+You'll see views within 5 minutes.
+
+26
+00:01:18,120 --> 00:01:21,010
+If someone can't watch, check the list.
+
+27
+00:01:21,210 --> 00:01:23,880
+Each person needs their own account.
+
+28
+00:01:24,080 --> 00:01:28,670
+- Can I share it outside the team?
+- Yes, but only for 7 days.
+
+29
+00:01:28,870 --> 00:01:31,750
+That limit is the default,
+and you can change it.
+
+30
+00:01:31,950 --> 00:01:33,950
+<i>We keep a copy for 30 days.</i>
+
+31
+00:01:34,150 --> 00:01:36,390
+After that, we ask before deleting it.
+
+32
+00:01:36,590 --> 00:01:38,740
+One last thing: the captions.
+
+33
+00:01:38,940 --> 00:01:41,610
+Download them as a file if you like.
+
+34
+00:01:41,810 --> 00:01:45,220
+The file is plain text with numbers
+and times.
+
+35
+00:01:45,420 --> 00:01:47,420
+Edit it in any text editor.
+
+36
+00:01:47,620 --> 00:01:50,580
+Just don't change the times by accident.
+
+37
+00:01:50,780 --> 00:01:52,380
+That's all for today.
+
+38
+00:01:52,580 --> 00:01:56,210
+Thanks for watching, and see you
+in the next one.
+
+39
+00:01:56,410 --> 00:01:58,010
+[MUSIC]

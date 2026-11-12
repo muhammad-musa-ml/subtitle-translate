@@ -1,0 +1,455 @@
+{
+ "runs": [
+  {
+   "rejected": [
+    {
+     "attempt": 1,
+     "codes": [
+      "unchanged"
+     ],
+     "index": 3,
+     "output": "First, upload the file. It's 2.4 GB,\nso give it a minute.",
+     "source": "First, upload the file. It's 2.4 GB,\nso give it a minute."
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "tags"
+     ],
+     "index": 4,
+     "output": "<i While that runs, set the title.</i>",
+     "source": "<i>While that runs, set the title.</i>"
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "unchanged"
+     ],
+     "index": 5,
+     "output": "Keep it under 60 characters.",
+     "source": "Keep it under 60 characters."
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "unchanged"
+     ],
+     "index": 6,
+     "output": "Next, pick who can watch it.",
+     "source": "Next, pick who can watch it."
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "unchanged"
+     ],
+     "index": 7,
+     "output": "- Everyone on the team?\n- Only the 12 people on the list.",
+     "source": "- Everyone on the team?\n- Only the 12 people on the list."
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "unchanged"
+     ],
+     "index": 8,
+     "output": "Right, so we choose \"Private link\".",
+     "source": "Right, so we choose \"Private link\"."
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "tags"
+     ],
+     "index": 30,
+     "output": "<i We keep a copy for 30 days.</i>",
+     "source": "<i>We keep a copy for 30 days.</i>"
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "reading_speed"
+     ],
+     "index": 31,
+     "output": "Dopo di esso, chiediamo prima di cancellarlo.",
+     "source": "After that, we ask before deleting it."
+    },
+    {
+     "attempt": 2,
+     "codes": [
+      "tags"
+     ],
+     "index": 4,
+     "output": "<i While that runs, set the title.</i>",
+     "source": "<i>While that runs, set the title.</i>"
+    },
+    {
+     "attempt": 2,
+     "codes": [
+      "reading_speed"
+     ],
+     "index": 6,
+     "output": "Successivamente, scegliete chi può guardarlo.",
+     "source": "Next, pick who can watch it."
+    },
+    {
+     "attempt": 2,
+     "codes": [
+      "tags"
+     ],
+     "index": 30,
+     "output": "<i We keep a copy for 30 days.</i>",
+     "source": "<i>We keep a copy for 30 days.</i>"
+    },
+    {
+     "attempt": 3,
+     "codes": [
+      "tags"
+     ],
+     "index": 4,
+     "output": "Mentre <i style=\"font-style: italic;\">quello</i> gira, imposta il titolo.",
+     "source": "<i>While that runs, set the title.</i>"
+    },
+    {
+     "attempt": 3,
+     "codes": [
+      "tags"
+     ],
+     "index": 30,
+     "output": "Conserviamo una copia per <i style=\"font-style: italic;\">30 giorni</i>.",
+     "source": "<i>We keep a copy for 30 days.</i>"
+    }
+   ],
+   "run": 1,
+   "seed": 1,
+   "summary": {
+    "calls": 7,
+    "cues": 39,
+    "first_attempt_codes": {
+     "reading_speed": 1,
+     "tags": 2,
+     "unchanged": 5
+    },
+    "latency_s": 33.913,
+    "reflowed": 6,
+    "repaired_replies": 7,
+    "status": {
+     "fallback": 2,
+     "ok": 31,
+     "retried": 6
+    }
+   },
+   "wall_s": 33.9
+  },
+  {
+   "rejected": [
+    {
+     "attempt": 1,
+     "codes": [
+      "unchanged"
+     ],
+     "index": 3,
+     "output": "First, upload the file. It's 2.4 GB,\nso give it a minute.",
+     "source": "First, upload the file. It's 2.4 GB,\nso give it a minute."
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "tags"
+     ],
+     "index": 4,
+     "output": "<i While that runs, set the title.</i>",
+     "source": "<i>While that runs, set the title.</i>"
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "unchanged"
+     ],
+     "index": 5,
+     "output": "Keep it under 60 characters.",
+     "source": "Keep it under 60 characters."
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "unchanged"
+     ],
+     "index": 6,
+     "output": "Next, pick who can watch it.",
+     "source": "Next, pick who can watch it."
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "unchanged"
+     ],
+     "index": 7,
+     "output": "- Everyone on the team?\n- Only the 12 people on the list.",
+     "source": "- Everyone on the team?\n- Only the 12 people on the list."
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "unchanged"
+     ],
+     "index": 8,
+     "output": "Right, so we choose \"Private link\".",
+     "source": "Right, so we choose \"Private link\"."
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "tags"
+     ],
+     "index": 30,
+     "output": "<i We keep a copy for 30 days.</i>",
+     "source": "<i>We keep a copy for 30 days.</i>"
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "reading_speed"
+     ],
+     "index": 31,
+     "output": "Dopo di esso, chiediamo prima di cancellarlo.",
+     "source": "After that, we ask before deleting it."
+    },
+    {
+     "attempt": 2,
+     "codes": [
+      "tags",
+      "english_left"
+     ],
+     "index": 4,
+     "output": "<iWhile that runs, set the title.</i>",
+     "source": "<i>While that runs, set the title.</i>"
+    },
+    {
+     "attempt": 2,
+     "codes": [
+      "reading_speed"
+     ],
+     "index": 6,
+     "output": "Successivamente, scegliete chi può guardarlo.",
+     "source": "Next, pick who can watch it."
+    },
+    {
+     "attempt": 2,
+     "codes": [
+      "tags"
+     ],
+     "index": 30,
+     "output": "<iManteniamo una copia per 30 giorni.</i>",
+     "source": "<i>We keep a copy for 30 days.</i>"
+    },
+    {
+     "attempt": 3,
+     "codes": [
+      "reading_speed"
+     ],
+     "index": 4,
+     "output": "Mentre <i>quindi</i> viene eseguito, imposta il titolo.",
+     "source": "<i>While that runs, set the title.</i>"
+    },
+    {
+     "attempt": 3,
+     "codes": [
+      "tags"
+     ],
+     "index": 30,
+     "output": "Conserviamo una copia per 30 giorni.",
+     "source": "<i>We keep a copy for 30 days.</i>"
+    }
+   ],
+   "run": 2,
+   "seed": 2,
+   "summary": {
+    "calls": 7,
+    "cues": 39,
+    "first_attempt_codes": {
+     "reading_speed": 1,
+     "tags": 2,
+     "unchanged": 5
+    },
+    "latency_s": 26.323,
+    "reflowed": 6,
+    "repaired_replies": 7,
+    "status": {
+     "fallback": 2,
+     "ok": 31,
+     "retried": 6
+    }
+   },
+   "wall_s": 26.3
+  },
+  {
+   "rejected": [
+    {
+     "attempt": 1,
+     "codes": [
+      "unchanged"
+     ],
+     "index": 3,
+     "output": "First, upload the file. It's 2.4 GB,\nso give it a minute.",
+     "source": "First, upload the file. It's 2.4 GB,\nso give it a minute."
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "tags"
+     ],
+     "index": 4,
+     "output": "<i While that runs, set the title.</i>",
+     "source": "<i>While that runs, set the title.</i>"
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "unchanged"
+     ],
+     "index": 5,
+     "output": "Keep it under 60 characters.",
+     "source": "Keep it under 60 characters."
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "unchanged"
+     ],
+     "index": 6,
+     "output": "Next, pick who can watch it.",
+     "source": "Next, pick who can watch it."
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "unchanged"
+     ],
+     "index": 7,
+     "output": "- Everyone on the team?\n- Only the 12 people on the list.",
+     "source": "- Everyone on the team?\n- Only the 12 people on the list."
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "unchanged"
+     ],
+     "index": 8,
+     "output": "Right, so we choose \"Private link\".",
+     "source": "Right, so we choose \"Private link\"."
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "reading_speed"
+     ],
+     "index": 20,
+     "output": "Qualsiasi cosa più veloce\nfa sembrare tutto un\nvelo.",
+     "source": "Anything faster feels like a blur."
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "tags"
+     ],
+     "index": 30,
+     "output": "<i We keep a copy for 30 days.</i>",
+     "source": "<i>We keep a copy for 30 days.</i>"
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "reading_speed"
+     ],
+     "index": 31,
+     "output": "Dopo di esso, chiediamo prima di cancellarlo.",
+     "source": "After that, we ask before deleting it."
+    },
+    {
+     "attempt": 1,
+     "codes": [
+      "reading_speed"
+     ],
+     "index": 35,
+     "output": "Modificalo con qualsiasi editor di testo.",
+     "source": "Edit it in any text editor."
+    },
+    {
+     "attempt": 2,
+     "codes": [
+      "tags"
+     ],
+     "index": 4,
+     "output": "<i While that runs, set the title.</i>",
+     "source": "<i>While that runs, set the title.</i>"
+    },
+    {
+     "attempt": 2,
+     "codes": [
+      "reading_speed"
+     ],
+     "index": 6,
+     "output": "Successivamente, scegliete chi può vederlo.",
+     "source": "Next, pick who can watch it."
+    },
+    {
+     "attempt": 2,
+     "codes": [
+      "tags"
+     ],
+     "index": 30,
+     "output": "<i We keep a copy for 30 days.</i>",
+     "source": "<i>We keep a copy for 30 days.</i>"
+    },
+    {
+     "attempt": 3,
+     "codes": [
+      "tags"
+     ],
+     "index": 4,
+     "output": "Mentre <i style=\"font-style: italic;\">quello</i> gira, imposta il titolo.",
+     "source": "<i>While that runs, set the title.</i>"
+    },
+    {
+     "attempt": 3,
+     "codes": [
+      "tags"
+     ],
+     "index": 30,
+     "output": "Conserviamo una copia per <i style=\"font-style: italic;\">30 giorni</i>.",
+     "source": "<i>We keep a copy for 30 days.</i>"
+    }
+   ],
+   "run": 3,
+   "seed": 3,
+   "summary": {
+    "calls": 8,
+    "cues": 39,
+    "first_attempt_codes": {
+     "reading_speed": 3,
+     "tags": 2,
+     "unchanged": 5
+    },
+    "latency_s": 28.161,
+    "reflowed": 6,
+    "repaired_replies": 8,
+    "status": {
+     "fallback": 2,
+     "ok": 29,
+     "retried": 8
+    }
+   },
+   "wall_s": 28.2
+  }
+ ],
+ "setup": {
+  "batch_size": 8,
+  "max_retries": 2,
+  "model": "gemma3:latest",
+  "runs": 3,
+  "source": "demo.srt",
+  "target": "Italian",
+  "temperature": 0.3
+ }
+}
