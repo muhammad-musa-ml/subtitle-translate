@@ -12,6 +12,7 @@ from typing import Dict, List, Optional
 
 from .checks import Rules, check_cue
 from .model import ModelError, Request, parse_reply
+from .reflow import reflow
 from .srt import Cue
 
 ENGLISH_NAMES = ("en", "eng", "english")
@@ -25,6 +26,7 @@ class CueResult:
     attempts: int = 0
     first_codes: List[str] = field(default_factory=list)
     accepted_call: Optional[int] = None
+    reflowed: bool = False           # the shipped text has line breaks moved by reflow()
 
 
 @dataclass
@@ -52,6 +54,7 @@ class Result:
         return {
             "cues": len(self.cues),
             "status": counts,
+            "reflowed": sum(1 for r in self.cues if r.reflowed),
             "first_attempt_codes": dict(sorted(first.items())),
             "calls": self.calls,
             "latency_s": round(self.latency_s, 3),
@@ -123,7 +126,7 @@ def translate(cues: List[Cue], model, target: str, rules: Rules = Rules(),
                 elif len(texts[c.index]) > 1:
                     codes = ["duplicate"]
                 else:
-                    text = texts[c.index][0]
+                    text = reflow(texts[c.index][0], rules)
                     codes = check_cue(c, text, rules, target_is_english)
                 if st["first"] is None:
                     st["first"] = codes
@@ -138,7 +141,7 @@ def translate(cues: List[Cue], model, target: str, rules: Rules = Rules(),
                 else:
                     results[c.index] = CueResult(
                         c.index, "ok" if st["attempts"] == 1 else "retried",
-                        text, st["attempts"], st["first"], call_no,
+                        text, st["attempts"], st["first"], call_no, text != texts[c.index][0],
                     )
         out.round_calls.append(out.calls - calls_before)
         pending = failed

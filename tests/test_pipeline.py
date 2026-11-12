@@ -238,6 +238,42 @@ class PassthroughAndTargetTests(unittest.TestCase):
             self.assertEqual(res.cues[0].status, status, name)
 
 
+class ReflowInPipelineTests(unittest.TestCase):
+    CUE = Cue(1, 0, 5000, "Check every cue before you publish.")
+    LONG_LINE = "Controlla ogni didascalia prima di pubblicare."   # 46 characters on one line
+
+    def test_a_correct_translation_with_a_long_line_is_not_asked_again(self):
+        model = Scripted({self.CUE.text: self.LONG_LINE})
+        res = pipeline.translate([self.CUE], model, "Italian")
+        r = res.cues[0]
+        self.assertEqual((r.status, r.attempts, r.reflowed), ("ok", 1, True))
+        self.assertEqual(r.text, "Controlla ogni didascalia\nprima di pubblicare.")
+        self.assertEqual(len(model.requests), 1)
+        self.assertEqual(res.summary()["reflowed"], 1)
+
+    def test_the_attempt_log_keeps_what_the_model_said(self):
+        res = pipeline.translate([self.CUE], Scripted({self.CUE.text: self.LONG_LINE}), "Italian")
+        self.assertEqual(res.attempt_log[0]["text"], self.LONG_LINE)
+
+    def test_text_that_fits_is_not_marked_as_reflowed(self):
+        res = pipeline.translate([self.CUE], Scripted({self.CUE.text: "Controlla ogni cue."}), "Italian")
+        self.assertFalse(res.cues[0].reflowed)
+        self.assertEqual(res.summary()["reflowed"], 0)
+
+    def test_text_that_cannot_be_reflowed_is_rejected_for_its_line_length(self):
+        wide = "x" * 50
+        res = pipeline.translate([self.CUE], Scripted({self.CUE.text: wide}), "Italian", max_retries=0)
+        self.assertEqual(res.cues[0].status, "fallback")
+        self.assertIn("line_length", res.cues[0].first_codes)
+
+    def test_reflow_does_not_hide_a_second_problem(self):
+        # Long line, and the number is wrong: the line break is fixed, the number still fails.
+        cue = Cue(1, 0, 8000, "Check all 12 cues before you publish.")
+        wrong = "Controlla tutte le 13 didascalie prima di pubblicare."
+        res = pipeline.translate([cue], Scripted({cue.text: wrong}), "Italian", max_retries=0)
+        self.assertEqual(res.cues[0].first_codes, ["numbers"])
+
+
 class InvariantTests(unittest.TestCase):
     def test_no_cue_that_fails_a_check_is_ever_shipped(self):
         rates = Rates(drop=0.05, duplicate=0.05, merge=0.05, number=0.05, tag=0.05, long=0.05, english=0.05,

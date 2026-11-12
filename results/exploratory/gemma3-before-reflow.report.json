@@ -1,0 +1,242 @@
+{
+ "cues": 39,
+ "status": {
+  "ok": 28,
+  "retried": 5,
+  "fallback": 6
+ },
+ "first_attempt_codes": {
+  "length_ratio": 2,
+  "line_length": 8,
+  "numbers": 1,
+  "reading_speed": 3,
+  "tags": 2
+ },
+ "calls": 8,
+ "latency_s": 104.341,
+ "repaired_replies": 8,
+ "left_in_source": [
+  4,
+  13,
+  26,
+  27,
+  30,
+  31
+ ],
+ "rejected": [
+  {
+   "call": 1,
+   "index": 2,
+   "attempt": 1,
+   "codes": [
+    "line_length"
+   ],
+   "text": "Benvenuti di nuovo. Oggi condividiamo un video\ncon un team di 12 persone."
+  },
+  {
+   "call": 1,
+   "index": 4,
+   "attempt": 1,
+   "codes": [
+    "tags",
+    "length_ratio"
+   ],
+   "text": "<i While that runs, set the title.</i>"
+  },
+  {
+   "call": 1,
+   "index": 6,
+   "attempt": 1,
+   "codes": [
+    "line_length",
+    "reading_speed"
+   ],
+   "text": "Successivamente, scegliete chi può guardarlo."
+  },
+  {
+   "call": 2,
+   "index": 12,
+   "attempt": 1,
+   "codes": [
+    "line_length"
+   ],
+   "text": "Controlla ogni didascalia prima di pubblicare."
+  },
+  {
+   "call": 2,
+   "index": 13,
+   "attempt": 1,
+   "codes": [
+    "line_length"
+   ],
+   "text": "Un numero sbagliato in una didascalia è peggiore\ndi una mancante."
+  },
+  {
+   "call": 2,
+   "index": 16,
+   "attempt": 1,
+   "codes": [
+    "line_length"
+   ],
+   "text": "Se una riga è troppo lunga, non si adatterà\nsu un schermo di telefono."
+  },
+  {
+   "call": 4,
+   "index": 26,
+   "attempt": 1,
+   "codes": [
+    "line_length"
+   ],
+   "text": "Se qualcuno non può guardare, controlla la lista."
+  },
+  {
+   "call": 4,
+   "index": 27,
+   "attempt": 1,
+   "codes": [
+    "line_length"
+   ],
+   "text": "Ogni persona ha bisogno del proprio account."
+  },
+  {
+   "call": 4,
+   "index": 30,
+   "attempt": 1,
+   "codes": [
+    "numbers",
+    "tags",
+    "length_ratio"
+   ],
+   "text": "<i We keep a copy for 30 days.</i>"
+  },
+  {
+   "call": 4,
+   "index": 31,
+   "attempt": 1,
+   "codes": [
+    "line_length",
+    "reading_speed"
+   ],
+   "text": "Dopo di esso, chiediamo prima di cancellarlo."
+  },
+  {
+   "call": 5,
+   "index": 35,
+   "attempt": 1,
+   "codes": [
+    "reading_speed"
+   ],
+   "text": "Modificalo con qualsiasi editor di testo."
+  },
+  {
+   "call": 6,
+   "index": 4,
+   "attempt": 2,
+   "codes": [
+    "tags"
+   ],
+   "text": "<i style=\"font-style: italic;\">Mentre è in esecuzione, imposta il titolo.</i>"
+  },
+  {
+   "call": 6,
+   "index": 13,
+   "attempt": 2,
+   "codes": [
+    "line_length"
+   ],
+   "text": "Un numero sbagliato in un sottotitolo è peggiore\ndi uno mancante."
+  },
+  {
+   "call": 6,
+   "index": 26,
+   "attempt": 2,
+   "codes": [
+    "line_length"
+   ],
+   "text": "Se qualcuno non può guardare, controlla l'elenco."
+  },
+  {
+   "call": 6,
+   "index": 27,
+   "attempt": 2,
+   "codes": [
+    "line_length"
+   ],
+   "text": "Ogni persona ha bisogno del proprio account."
+  },
+  {
+   "call": 7,
+   "index": 30,
+   "attempt": 2,
+   "codes": [
+    "tags"
+   ],
+   "text": "Manteniamo una copia per 30 giorni."
+  },
+  {
+   "call": 7,
+   "index": 31,
+   "attempt": 2,
+   "codes": [
+    "line_length"
+   ],
+   "text": "Dopo di ciò, chiediamo prima di cancellarla."
+  },
+  {
+   "call": 8,
+   "index": 4,
+   "attempt": 3,
+   "codes": [
+    "line_length",
+    "reading_speed",
+    "tags"
+   ],
+   "text": "Mentre questo è in esecuzione, imposta il titolo."
+  },
+  {
+   "call": 8,
+   "index": 13,
+   "attempt": 3,
+   "codes": [
+    "line_length"
+   ],
+   "text": "Un numero sbagliato in un sottotitolo è peggiore\ndi uno mancante."
+  },
+  {
+   "call": 8,
+   "index": 26,
+   "attempt": 3,
+   "codes": [
+    "line_length"
+   ],
+   "text": "Se qualcuno non può guardare, controlla l'elenco."
+  },
+  {
+   "call": 8,
+   "index": 27,
+   "attempt": 3,
+   "codes": [
+    "line_length"
+   ],
+   "text": "Ogni persona ha bisogno del proprio account."
+  },
+  {
+   "call": 8,
+   "index": 30,
+   "attempt": 3,
+   "codes": [
+    "tags"
+   ],
+   "text": "Conserveremo una copia per 30 giorni."
+  },
+  {
+   "call": 8,
+   "index": 31,
+   "attempt": 3,
+   "codes": [
+    "line_length"
+   ],
+   "text": "Dopo di che, chiediamo prima di eliminarla."
+  }
+ ]
+}
