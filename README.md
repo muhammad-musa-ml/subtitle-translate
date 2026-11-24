@@ -2,8 +2,6 @@
 
 I wrote this to translate a subtitle file (.srt) with a language model and check every translated cue before it is written out. It talks to any server that speaks the OpenAI chat API (Ollama on localhost by default) and uses only the Python standard library. I ran it on Python 3.13.
 
-Not affiliated with Bending Spoons or Vimeo.
-
 ## Why
 
 A model that translates a file can change a number, drop an italics tag, return a line that is too long to read in the time the cue is on screen, leave a cue in English, or put "Ecco la traduzione:" in front of the text. I wanted to know how often small local models do this, and how much a per-cue check and a retry fix.
